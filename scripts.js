@@ -7,12 +7,12 @@ window.onload = function() //hàm được gọi khi mở trang web
     startGame(); //chứa các khỏi tạo cho game
     window.setInterval(function()
     {
-        crushCandy(); //phá kẹo
-        slideCandy(); //di chuyển kẹo
-        generateCandy(); //tạo ra kẹo
+        Pha_Keo(); //phá kẹo
+        Dichuyen_Keo(); //di chuyển kẹo
+        Tao_Keo(); //tạo ra kẹo
     }, 100);
 }
-function randomKeo() //chọn kẹo ngẫu nhiên
+function randomKeo() //sinh giá trị ngẫu nhiên trong mảng Keo[]
 {
     return Keo[Math.floor(Math.random() * Keo.length)]; 
 }
