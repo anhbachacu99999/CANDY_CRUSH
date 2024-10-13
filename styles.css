@@ -1,0 +1,33 @@
+body
+{
+    background-image: url(back_ground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+div
+{
+    margin-top: 300px;
+}
+button
+{
+    margin-left: 50%;
+    width: 60px;
+    height: 30px;
+    background-color: lightpink;
+}
+button:active
+{
+   font-size: smaller;
+   transform: scale(0.95);
+}
+button:hover
+{
+    font-weight:  bolder;
+    border: 3px solid black;
+}
+h3
+{
+    text-align: center;
+    font-weight: initial;
+}
