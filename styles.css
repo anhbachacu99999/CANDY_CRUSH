@@ -5,27 +5,33 @@ body
     background-attachment: fixed;
     background-position: center;
 }
+
 div
 {
+    text-align: center;
     margin-top: 300px;
 }
+
 button
 {
-    margin-left: 50%;
+    margin-left: 5%;
     width: 60px;
     height: 30px;
     background-color: lightpink;
 }
+
 button:active
 {
    font-size: smaller;
    transform: scale(0.95);
 }
+
 button:hover
 {
     font-weight:  bolder;
     border: 3px solid black;
 }
+
 h3
 {
     text-align: center;
