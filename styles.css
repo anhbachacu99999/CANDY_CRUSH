@@ -9,12 +9,22 @@ body
 div
 {
     text-align: center;
-    margin-top: 300px;
+    margin-top: auto;
+    align-items: center;
+}
+
+
+.bang
+{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(174, 208, 220);
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 button
 {
-    margin-left: 5%;
     width: 60px;
     height: 30px;
     background-color: lightpink;
