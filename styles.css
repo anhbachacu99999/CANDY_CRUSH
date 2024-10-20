@@ -4,6 +4,7 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 }
 
 div
@@ -11,16 +12,6 @@ div
     text-align: center;
     margin-top: auto;
     align-items: center;
-}
-
-
-.bang
-{
-    width: 500px;
-    height: 450px;
-    background-color: rgb(174, 208, 220);
-    border-radius: 10px;
-    margin: 0 auto;
 }
 
 button
